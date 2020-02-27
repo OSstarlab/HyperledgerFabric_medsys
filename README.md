@@ -11,6 +11,7 @@
 docker-compose.yml 파일에 명시된 환결설정값 (CA, 피어, 오더러, CouchDB, Cli 등) 컨테이너가 시작이 되며 
 채널생성 및 Join이 됩니다. 
 
+![1](https://user-images.githubusercontent.com/22516796/75415915-6392dd80-5970-11ea-8762-97c19ff461c3.PNG)
 
 그리고 나서 체인코드가 설치 및 인스턴스화 된 후 애플리케이션을 사용할 수 있는 상태가 됩니다. 
 
