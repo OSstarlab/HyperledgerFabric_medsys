@@ -16,12 +16,17 @@ docker-compose.yml 파일에 명시된 환결설정값 (CA, 피어, 오더러, C
 ![1](https://user-images.githubusercontent.com/22516796/75415915-6392dd80-5970-11ea-8762-97c19ff461c3.PNG)
 
 그리고 나서 체인코드가 설치 및 인스턴스화 된 후 애플리케이션을 사용할 수 있는 상태가 됩니다. 
+![2](https://user-images.githubusercontent.com/22516796/75416027-a05ed480-5970-11ea-88a4-cea0f5f79294.PNG)
 
-정상적으로 스크립트가 실행이 되면 애플리케이션 설명과 간단한 튜토리얼이 출력됩니다.<br>
+
+정상적으로 스크립트가 실행이 되면 애플리케이션 설명과 간단한 튜토리얼이 출력됩니다.<br><br>
+![3](https://user-images.githubusercontent.com/22516796/75416241-29760b80-5971-11ea-98b2-30cc0182885b.PNG)
+<br>
 이제 Javascript, Typescript, Java 세가지 언어로 애플리케이션을 실행할 수 있는데,<br>
 예를 들어 Javascript로 애플리케이션을 돌려보려면 일단 javascript 디렉토리로 들어갑니다.<br>
 <br>
 enrollAdmin.js, registerUser.js, invoke.js, query.js 네가지 JS 파일들이 있는데<br>
+![4](https://user-images.githubusercontent.com/22516796/75416290-4dd1e800-5971-11ea-951d-b22413069cc1.PNG)
 enrollAdmin은 장부에 admin 등록, registerUser는 노드 추가, <br>
 invoke.js 는 정보 입력 및 수정, query.js는 정보를 받아와 출력하는 것으로 보시면 됩니다.<br>
 <br>
@@ -31,3 +36,7 @@ node enrollAdmin.js로 admin을 먼저 등록해주고, <br>
 
 query.js에서도 체인코드에 있는 다른 함수를 불러와서 한꺼번에 모든 데이터 전체 출력, 또는 한 노드의 데이터만 출력이 가능합니다.
 
+![5](https://user-images.githubusercontent.com/22516796/75416443-a6a18080-5971-11ea-8704-7399948ee855.PNG)
+
+<br>
+정상적으로 모든 쿼리문이 실행되면 예를 들어 위와 같은 결과가 나옵니다.
